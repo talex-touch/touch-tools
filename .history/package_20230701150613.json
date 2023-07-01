@@ -1,0 +1,21 @@
+{
+  "name": "@talex-touch/touch-tools",
+  "version": "1.0.0",
+  "description": "A input, a word, a touch, a world.",
+  "author": "TalexDreamSoul <TalexDreamSoul@Gmail.com>",
+  "license": "MPL-2.0 license",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9"
+  },
+  "scripts": {
+    "dev:view": "pnpm -F touch-tools-view run dev",
+    "dev:tools": "pnpm -F touch-tools-inner run dev",
+    "dev:all": "pnpm -F touch-tools-view run dev & pnpm -F touch-tools-inner run dev"
+  }
+}
